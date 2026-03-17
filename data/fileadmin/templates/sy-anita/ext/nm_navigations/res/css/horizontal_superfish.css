@@ -1,0 +1,94 @@
+/**********************************************************************************
+	created by:		Newmedia http://www.newmedia.ch
+	project:		PROJEKTNAME
+	date:			Januar/2010, Marianne Luck
+	version:		0.1
+	file:			navigation.css
+	function:		Navigation Styles
+**********************************************************************************/
+.sf-sub-indicator {
+	background:		url('../img/arrows-ffffff.png') !important;
+	top:1.05em !important;
+}
+
+.sf-menu a {
+	padding-top:0px !important;
+	padding-bottom:0px !important;	
+	border:none !important;
+}
+
+.sf-menu li:hover ul,
+.sf-menu li.sfHover ul {
+	/*top:	30px !important; /* match top ul list item height */
+}
+
+ul.sf-menu li li:hover ul,
+ul.sf-menu li li.sfHover ul {
+	top:	0 !important;
+}
+
+/* NAVIGATION MAIN  HORIZONTAL  ------------------------------------------------ */
+/* ------------------------------------------------------------------------------*/
+div#horizontal_navigation
+{
+	float:left;
+	width:100%;	
+	background:#23333A;
+	position:relative;
+}
+
+ul#nav_horizontal_1
+{
+	float:left;
+	margin:0;
+	padding:0;
+}
+
+#nav_horizontal_1 li
+{
+	list-style:none;
+	float:left;	
+	padding:0;
+	margin:0;
+	background:#23333A;
+}
+
+#nav_horizontal_1 li a						{outline:none; height:35px; line-height:35px; display:block; width:auto; padding:0 30px; color: #fff;  text-decoration: none; font-weight:bold;  font-size:12px;}
+#nav_horizontal_1 li a:link 							{}
+#nav_horizontal_1 li a:visited 						{}
+#nav_horizontal_1 li a:hover 							{background-color:#00405B;}
+#nav_horizontal_1 li a:active							{background-color:#00405B;}
+#nav_horizontal_1 li a:focus 							{background-color:#00405B;}
+
+#nav_horizontal_1 li.active > a						{background-color:#00405B;}
+#nav_horizontal_1 li.active > a:link 			{}
+#nav_horizontal_1 li.active > a:visited 	{}
+#nav_horizontal_1 li.active > a:hover 		{}  
+#nav_horizontal_1 li.active > a:active		{}
+#nav_horizontal_1 li.active > a:focus 		{}
+
+#nav_horizontal_1 li.cur > a							{background-color:#00405B;}
+#nav_horizontal_1 li.cur > a:link 				{}
+#nav_horizontal_1 li.cur > a:visited 			{}
+#nav_horizontal_1 li.cur > a:hover 				{}
+#nav_horizontal_1 li.cur > a:active				{}
+#nav_horizontal_1 li.cur > a:focus 				{}
+
+ul#nav_horizontal_2 {
+	top:35px !important; 	
+}
+
+ul#nav_horizontal_2,
+ul#nav_horizontal_3,
+ul#nav_horizontal_4 {
+	float:left;
+	margin:0;
+	padding:0;	
+}
+
+#nav_horizontal_2 li {
+	float:left;
+	margin:0;
+	padding:0;
+	background:#23333A;
+}

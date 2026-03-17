@@ -1,0 +1,73 @@
+@charset "utf-8";
+/**********************************************************************************
+	created by:		Newmedia http://www.newmedia.ch
+	project:		PROJEKTNAME
+	date:			Januar/2010, Marianne Luck
+	version:		0.1
+	file:			navigation.css
+	function:		Navigation Styles
+**********************************************************************************/
+/* NAVIGATIONS  ---------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------*/
+
+/*   nummerierung und punkt verstecken  */
+li dfn, .usb {
+	display:none;
+}
+
+/* NAVIGATION HEADER SERVICE --------------------------------------------------- */
+/* ------------------------------------------------------------------------------*/
+div#header_navigation
+{
+
+}
+ul#nav_header_service
+{
+	float:right;
+	margin:0px;
+	padding:0px;	
+}
+
+#nav_header_service li
+{
+	list-style:none;
+	float:left;
+	height:11px;
+	border-left:1px solid #003F59;
+	padding-left:10px;
+	margin-right:10px;
+	font-size:11px;
+	height:15px;
+	line-height:15px;
+}
+
+#nav_header_service li.first
+{
+	border-left:none;
+	padding-left:0px;	
+}
+
+#nav_header_service li.last
+{
+}
+
+#nav_header_service li a									{color: #003F59; line-height:15px; height:15px; outline:none; text-decoration:none; font-size:11px; font-weight:bold; display:inline-block;}
+#nav_header_service li a:link 						{}
+#nav_header_service li a:visited 					{}
+#nav_header_service li a:hover 						{text-decoration:underline;}
+#nav_header_service li a:active						{text-decoration:underline;}
+#nav_header_service li a:focus 						{text-decoration:underline;}
+
+#nav_header_service li .active a					{text-decoration:underline;}
+#nav_header_service li .active a:link 		{}
+#nav_header_service li .active a:visited 	{}
+#nav_header_service li .active a:hover 		{} 
+#nav_header_service li .active a:active		{}
+#nav_header_service li .active a:focus 		{}
+
+#nav_header_service li .cur a							{color: #003F59; text-decoration:underline;}
+#nav_header_service li .cur a:link 				{}
+#nav_header_service li .cur a:visited 		{}
+#nav_header_service li .cur a:hover 			{}
+#nav_header_service li .cur a:active			{}
+#nav_header_service li .cur a:focus 			{}

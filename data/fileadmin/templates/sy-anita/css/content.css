@@ -1,0 +1,206 @@
+@charset "utf-8";
+/**********************************************************************************
+	created by:		Newmedia http://www.newmedia.ch
+	project:		PROJEKTNAME
+	date:			Januar/2010, Marianne Luck
+	version:		0.1
+	file:			content.css
+	function:		Content Area
+**********************************************************************************/
+/* STANDARD ELEMENTS ------------------------------------------------------------*/
+/* ------------------------------------------------------------------------------*/
+
+/* TEXT ELEMENTS ----------------------------------------------------------------*/
+p, strong, b, i
+{
+	font-size:12px;	
+	line-height: 1.5em;
+	margin-bottom: 1em;
+	padding:0px;	
+}
+
+h1 
+{
+	color:#1C3277;
+	font-size: 1.4em;
+	font-weight: bold;
+	line-height: 1.6em;
+	margin-bottom: 10px;
+	padding:0;
+}
+
+h2 
+{
+	color:#1C3277;
+	font-size: 1.2em;
+	font-weight: bold;
+	line-height: 1.4em;
+	margin-bottom: 10px;
+	padding:0;
+}
+
+h3 
+{
+	color:#333;
+	font-size: 1em;
+	font-weight: bold;
+	line-height: 1.2em;
+	margin-bottom: 10px;
+	padding:0;	
+}
+
+
+h4 
+{
+	color:#333;
+	font-size: 1em;
+	font-style: italic;
+	line-height: 1.2em;
+	margin-bottom: 10px;
+	padding:0;
+}
+
+/* LIST ELEMENTS ----------------------------------------------------------------*/
+#content ul
+{
+	margin-bottom:10px;
+	margin-left:15px;
+	list-style:square;
+}
+
+#content ol
+{
+	margin-bottom:1.0em;
+	margin-left:22px;
+}
+#content li
+{
+	line-height: 18px;
+	font-size:12px;	
+	padding:0px;
+	margin:0px;
+}
+
+/* SITEMAPS --------------------------------------------------------------------*/
+
+#content .csc-sitemap ul
+{
+	margin-bottom:0px;
+}
+
+#content .csc-sitemap li
+{
+	line-height: 25px;
+}
+
+#content .csc-menu dt {
+	font-weight:bold;
+}
+
+#content .csc-menu dd {
+	margin-bottom:10px;
+}
+
+/* TABLE ------------------------------------------------------------------------*/
+table caption,
+th {
+	font-size:12px;
+	line-height: 14px;	
+	font-weight:bold;
+	text-align:left;
+	color:#223339;
+}
+
+td {
+	font-size:12px;
+	line-height: 14px;
+	color:#223339;
+}
+
+#colRight table {
+	width:100%;
+	border-collapse:collapse;
+	font-size:11px;
+	background:#d6d6d6;
+}
+
+#colRight table p,
+#colRight table b,
+#colRight table i {
+	font-size:11px;
+}
+
+#colRight tr {
+	border-bottom:2px solid transparent;
+}
+
+#colRight td,
+#colRight th {
+	padding:3px 2px 3px 15px;
+	font-size:11px;
+}
+
+#colRight th {
+	padding-bottom:0;
+}
+
+/* LINE -------------------------------------------------------------------------*/
+hr 
+{
+	background-color: #666666; 	/* Mozilla 1.4 */
+	color: #666666; 			/* IE 6 */
+	border: #666666; 			/* Opera 7.11 */
+	height: 1px; 				/* in Opera fuer die Anzeige noetig, in Mozilla fuer die einheitliche Hoehe */
+	margin:0px;
+	padding:0px;
+}
+
+/* LINKS ------------------------------------------------------------------------*/
+a					{ color: #003F5A; line-height:1.5em; outline:none; font-size:12px; text-decoration:underline;	}
+a:link 		{}
+a:visited	{}
+a:hover 	{ color: #4E5C92;}
+a:active	{ color: #4E5C92;}
+a:focus 	{ color: #4E5C92;}	
+
+/* IMAGE ------------------------------------------------------------------------*/
+#content img
+{
+	border:none;
+}
+
+#content .csc-caption
+{
+	padding-top:10px;
+}
+
+#content .csc-textpic-caption
+{
+	font-size:12px;
+	margin-top:7px;	
+	line-height:16px;
+}
+
+
+/* DAM FILELINKS ----------------------------------------------------------------*/
+.filelinks span
+{
+	font-size:12px;
+	color:#777;
+}
+
+.filelinks .pdf {
+	background-image:url(https://sy-anita.ddev.site/fileadmin/templates/sy-anita/html/img/icons/page_white_acrobat.png) !important;
+}
+
+.filelinks .doc {
+	background-image:url(https://sy-anita.ddev.site/fileadmin/templates/sy-anita/html/img/icons/page_word.png) !important;
+}
+
+.filelinks .xls {
+	background-image:url(https://sy-anita.ddev.site/fileadmin/templates/sy-anita/html/img/icons/page_excel.png) !important;
+}
+
+.filelinks .jpg {
+	background-image:url(https://sy-anita.ddev.site/fileadmin/templates/sy-anita/html/img/icons/image.gif) !important;
+}

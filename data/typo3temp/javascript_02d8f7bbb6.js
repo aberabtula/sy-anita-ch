@@ -1,0 +1,1 @@
+jQuery.noConflict();jQuery(document).ready(function($){jQuery("ul.sf-menu").supersubs({minWidth:12,maxWidth:30,extraWidth:1}).superfish();});

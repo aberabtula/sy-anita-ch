@@ -1,0 +1,408 @@
+/**********************************************************************************
+	created by:		Newmedia http://www.newmedia.ch
+	project:		GLOBAL
+	date:			Januar/2010, Marianne Luck
+	version:		0.1
+	file:			layout.css
+	function:		EXTENSION TO 960 GRID SYSTEM
+**********************************************************************************/
+
+@import "../../3rdparty/960gird/css/960.css";
+
+/* GENERAL SETTING --------------------------------------------------------------*/
+/* ------------------------------------------------------------------------------*/
+
+.grid_1_full_left,
+.grid_2_full_left,
+.grid_3_full_left,
+.grid_4_full_left,
+.grid_5_full_left,
+.grid_6_full_left,
+.grid_7_full_left,
+.grid_8_full_left,
+.grid_9_full_left,
+.grid_10_full_left,
+.grid_11_full_left,
+.grid_12_full_left,
+.grid_13_full_left,
+.grid_14_full_left,
+.grid_15_full_left,
+.grid_16_full_left
+{
+	margin:0px;
+	margin-right:10px;
+	padding:0px;
+	display: inline;
+	float: left;
+	position: relative;
+}
+
+.grid_1_full_right,
+.grid_2_full_right,
+.grid_3_full_right,
+.grid_4_full_right,
+.grid_5_full_right,
+.grid_6_full_right,
+.grid_7_full_right,
+.grid_8_full_right,
+.grid_9_full_right,
+.grid_10_full_right,
+.grid_11_full_right,
+.grid_12_full_right,
+.grid_13_full_right,
+.grid_14_full_right,
+.grid_15_full_right,
+.grid_16_full_right
+{
+	margin:0px;
+	margin-left:10px;
+	padding:0px;
+	display: inline;
+	float: left;
+	position: relative;
+}
+
+.grid_1_full_both,
+.grid_2_full_both,
+.grid_3_full_both,
+.grid_4_full_both,
+.grid_5_full_both,
+.grid_6_full_both,
+.grid_7_full_both,
+.grid_8_full_both,
+.grid_9_full_both,
+.grid_10_full_both,
+.grid_11_full_both,
+.grid_12_full_both,
+.grid_13_full_both,
+.grid_14_full_both,
+.grid_15_full_both,
+.grid_16_full_both
+{
+	margin:0px;
+	padding:0px;
+	display: inline;
+	float: left;
+	position: relative;
+}
+
+/* 12 GRID  FULL LEFT / FULL RIGHT  = WIDTH + 10 PIXEL --------------------------*/
+/* ------------------------------------------------------------------------------*/
+
+.container_12 .grid_1_full_right,
+.container_12 .grid_1_full_left
+{
+	width: 70px;
+}
+
+.container_12 .grid_2_full_right,
+.container_12 .grid_2_full_left
+{
+	width: 150px;
+}
+
+.container_12 .grid_3_full_right,
+.container_12 .grid_3_full_left
+{
+	width: 230px;
+}
+
+.container_12 .grid_4_full_right,
+.container_12 .grid_4_full_left
+{
+	width: 310px;
+}
+
+.container_12 .grid_5_full_right,
+.container_12 .grid_5_full_left
+{
+	width: 390px;
+}
+
+.container_12 .grid_6_full_right,
+.container_12 .grid_6_full_left
+{
+	width: 470px;
+}
+
+.container_12 .grid_7_full_right,
+.container_12 .grid_7_full_left
+{
+	width: 550px;
+}
+
+.container_12 .grid_8_full_right,
+.container_12 .grid_8_full_left
+{
+	width: 630px;
+}
+
+.container_12 .grid_9_full_right,
+.container_12 .grid_9_full_left
+{
+	width: 710px;
+}
+
+.container_12 .grid_10_full_right,
+.container_12 .grid_10_full_left
+{
+	width: 790px;
+}
+
+.container_12 .grid_11_full_right,
+.container_12 .grid_11_full_left
+{
+	width: 870px;
+}
+
+.container_12 .grid_12_full_right,
+.container_12 .grid_12_full_left
+{
+	width: 950px;
+}
+
+/* 12 GRID  BOTH  = WIDTH + 20 PIXEL --------------------------------------------*/
+/* ------------------------------------------------------------------------------*/
+
+.container_12 .grid_1_full_both
+{
+	width: 80px;
+}
+
+.container_12 .grid_2_full_both
+{
+	width: 160px;
+}
+
+.container_12 .grid_3_full_both
+{
+	width: 240px;
+}
+
+.container_12 .grid_4_full_both
+{
+	width: 320px;
+}
+
+.container_12 .grid_5_full_both
+{
+	width: 400px;
+}
+
+.container_12 .grid_6_full_both
+{
+	width: 480px;
+}
+
+.container_12 .grid_7_full_both
+{
+	width: 560px;
+}
+
+.container_12 .grid_8_full_both
+{
+	width: 640px;
+}
+
+.container_12 .grid_9_full_both
+{
+	width: 720px;
+}
+
+.container_12 .grid_10_full_both
+{
+	width: 800px;
+}
+
+.container_12 .grid_11_full_both
+{
+	width: 880px;
+}
+
+.container_12 .grid_12_full_both
+{
+	width: 960px;
+}
+
+
+/* 16 GRID  FULL LEFT / FULL RIGHT  = WIDTH + 10 PIXEL --------------------------*/
+/* ------------------------------------------------------------------------------*/
+
+.container_16 .grid_1_full_right,
+.container_16 .grid_1_full_left
+{
+	width: 50px;
+}
+
+.container_16 .grid_2_full_right,
+.container_16 .grid_2_full_left
+{
+	width: 110px;
+}
+
+.container_16 .grid_3_full_right,
+.container_16 .grid_3_full_left
+{
+	width: 170px;
+}
+
+.container_16 .grid_4_full_right,
+.container_16 .grid_4_full_left
+{
+	width: 230px;
+}
+
+.container_16 .grid_5_full_right,
+.container_16 .grid_5_full_left
+{
+	width: 290px;
+}
+
+.container_16 .grid_6_full_right,
+.container_16 .grid_6_full_left
+{
+	width: 350px;
+}
+
+.container_16 .grid_7_full_right,
+.container_16 .grid_7_full_left
+{
+	width: 410px;
+}
+
+.container_16 .grid_8_full_right,
+.container_16 .grid_8_full_left
+{
+	width: 470px;
+}
+
+.container_16 .grid_9_full_right,
+.container_16 .grid_9_full_left
+{
+	width: 530px;
+}
+
+.container_16 .grid_10_full_right,
+.container_16 .grid_10_full_left
+{
+	width: 590px;
+}
+
+.container_16 .grid_11_full_right,
+.container_16 .grid_11_full_left
+{
+	width: 650px;
+}
+
+.container_16 .grid_12_full_right,
+.container_16 .grid_12_full_left
+{
+	width: 710px;
+}
+
+.container_16 .grid_13_full_right,
+.container_16 .grid_13_full_left
+{
+	width: 770px;
+}
+
+.container_16 .grid_14_full_right,
+.container_16 .grid_14_full_left
+{
+	width: 830px;
+}
+
+.container_16 .grid_15_full_right,
+.container_16 .grid_15_full_left
+{
+	width: 890px;
+}
+
+.container_16 .grid_16_full_right,
+.container_16 .grid_16_full_left
+{
+	width: 950px;
+}
+
+/* 16 GRID  BOTH  = WIDTH + 20 PIXEL  -------------------------------------------*/
+/* ------------------------------------------------------------------------------*/
+
+.container_16 .grid_1_full_both
+{
+	width: 60px;
+}
+
+.container_16 .grid_2_full_both
+{
+	width: 120px;
+}
+
+.container_16 .grid_3_full_both
+{
+	width: 180px;
+}
+
+.container_16 .grid_4_full_both
+{
+	width: 240px;
+}
+
+.container_16 .grid_5_full_both
+{
+	width: 300px;
+}
+
+.container_16 .grid_6_full_both
+{
+	width: 360px;
+}
+
+.container_16 .grid_7_full_both
+{
+	width: 420px;
+}
+
+.container_16 .grid_8_full_both
+{
+	width: 480px;
+}
+
+.container_16 .grid_9_full_both
+{
+	width: 540px;
+}
+
+.container_16 .grid_10_full_both
+{
+	width: 600px;
+}
+
+.container_16 .grid_11_full_both
+{
+	width: 660px;
+}
+
+.container_16 .grid_12_full_both
+{
+	width: 720px;
+}
+
+.container_16 .grid_13_full_both
+{
+	width: 780px;
+}
+
+.container_16 .grid_14_full_both
+{
+	width: 840px;
+}
+
+.container_16 .grid_15_full_both
+{
+	width: 900px;
+}
+
+.container_16 .grid_16_full_both
+{
+	width: 960px;
+}

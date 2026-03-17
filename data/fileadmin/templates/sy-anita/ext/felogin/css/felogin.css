@@ -1,0 +1,89 @@
+.tx-felogin-pi1 {
+	margin-bottom:10px;
+	border:none;
+	padding:10px;
+	background:#00405B;
+	font-size:11px;
+	line-height:14px;
+	color:#fff;
+}
+
+.tx-felogin-pi1 h3 {
+	font-size:11px;
+	color:#fff;
+}
+
+.tx-felogin-pi1 form {
+	margin-bottom:5px;
+}
+
+.tx-felogin-pi1 fieldset {
+	border:0;
+}
+
+.tx-felogin-pi1 fieldset > div {
+	overflow:hidden;
+}
+
+.tx-felogin-pi1 fieldset > legend {
+	display:none;
+}
+
+.tx-felogin-pi1 label {
+	display:inline-block;
+	float:left;
+	width:80px;
+	padding:0;
+	line-height:20px;
+	font-size:11px;
+}
+
+.tx-felogin-pi1 input:-webkit-autofill,
+.tx-felogin-pi1 input:focus {
+	outline:none;
+	background:#fff;
+}
+
+.tx-felogin-pi1 input[type="text"],
+.tx-felogin-pi1 input[type="password"] {
+	float:right;
+	width:60%;
+	max-width:200px;
+	border:1px solid #fff;
+	margin-bottom:5px;
+	padding:0 2px;
+	background:#fff;
+	font-size:11px;
+	-webkit-box-sizing:border-box;
+	   -moz-box-sizing:border-box;
+	     -o-box-sizing:border-box;
+	        box-sizing:border-box;
+	-webkit-border-radius:3px;
+	   -moz-border-radius:3px;
+		  -ms-border-radius:3px;
+	     -o-border-radius:3px;
+	        border-radius:3px;
+	-webkit-box-shadow: inset 2px 2px 10px rgba(0,0,0, 0.2);
+	   -moz-box-shadow: inset 2px 2px 10px rgba(0,0,0, 0.2);
+	        box-shadow: inset 2px 2px 10px rgba(0,0,0, 0.2);
+}
+
+.tx-felogin-pi1 input[type="submit"] {
+	clear:both;
+	float:right;
+	border:1px solid #ccc;
+	background-color:#fff;
+	color:#00405B;
+	padding:0 8px;
+	margin-top:5px;
+	cursor:pointer;
+	-webkit-border-radius:3px;
+	   -moz-border-radius:3px;
+		  -ms-border-radius:3px;
+	     -o-border-radius:3px;
+	        border-radius:3px;
+}
+
+.tx-felogin-pi1 .felogin-username {
+	line-height:20px;
+}

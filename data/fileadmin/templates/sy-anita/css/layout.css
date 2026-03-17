@@ -1,0 +1,163 @@
+/**********************************************************************************
+	created by:		Newmedia http://www.newmedia.ch
+	project:		everyweb Beauty
+	date:			Mai/2010, Ann Nielsen
+	version:		0.1
+	file:			layout.css
+	function:		Gerüst der Webseite
+**********************************************************************************/
+
+/* GENERAL SETTINGS -------------------------------------------------------------*/
+/* ------------------------------------------------------------------------------*/
+@charset "utf-8";
+
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+html
+{
+	height: 100%;	
+}
+
+body
+{
+	height: 100%;
+}
+
+body { 
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 12px; 
+	line-height: 1.5em;
+	color: #333333;
+	background:#f9f9f9;
+	margin:0;
+	padding:0;
+	height: 100%;
+	min-height:100%;
+}
+
+* {
+	font-size:1em;
+	line-height: 1.5em;
+}
+		
+#main_center
+{
+	margin:0; 
+	padding:0;	
+	width:960px;
+	/*background-color:#F4FCFF;*/
+	background:white;
+	position:relative;
+	margin:0 auto;	
+	height:auto;
+	min-height:100%;
+	-moz-box-shadow:  	5px  0  10px  #666,
+                   	 -5px  0  10px  #666;
+	-webkit-box-shadow: 5px  0  10px  #666,
+                   	 -5px  0  10px  #666;
+					box-shadow: 5px  0  10px  #666,
+          					 -5px  0  10px  #666;
+}
+					
+/* HEADER -----------------------------------------------------------------------*/
+/* ------------------------------------------------------------------------------*/
+#header {
+	float:left;
+}
+
+#header_navigations {
+}
+
+#header_service_navigation {
+	float:right;
+	margin:-10px 0 10px;
+}
+
+#header_image {
+	background:#23333A;
+	width:100%;
+	height:auto;
+}
+
+#header_image img {
+	display:none;
+}
+
+/* CONTENT_HEADER ---------------------------------------------------------------*/
+/* ------------------------------------------------------------------------------*/
+#content_header
+{
+	float:left;
+}
+
+/* LOGO -------------------------------------------------------------------------*/
+#logo
+{
+	margin:20px 0 0 25px;
+	float:left;
+	width:100%;
+}
+#logo a {
+	display:inline-block;
+}
+#logo a img
+{
+	border:none;
+}
+
+/* CONTENT ----------------------------------------------------------------------*/
+/* ------------------------------------------------------------------------------*/
+#content
+{
+	padding-top:50px;
+	padding-bottom:30px;
+	float:left;
+	width:960px;
+
+}
+
+.addthis {
+	margin-top:-30px;
+	float:right;
+}
+
+/* KONTAKTFORMULAR -----------------------------------------------------------------------*/
+/* ------------------------------------------------------------------------------*/
+
+.csc-mailform {
+    border: medium none;
+}
+
+.csc-mailform-field > label {
+	float: left;
+	min-width: 90px;
+	padding-top: 3px;
+	height: 33px;
+}
+.csc-mailform-field {
+	display: inline-block;
+	width: 100%;
+}
+
+.csc-mailform-field > input, #mailformMitteilung {
+	border: 1px solid #999;
+	padding: 5px;
+}
+input#mailformformtype_mail.csc-mailform-submit {
+	background-color: #003F5A;
+	color: #fff;
+	margin: 5px 0 0 90px;
+	width: 234px;
+}
+
+/* BRAND -------------------------------------------------------------------*/
+#newmedia
+{
+	position:absolute;
+	right:-20px;
+	bottom:10px;
+}

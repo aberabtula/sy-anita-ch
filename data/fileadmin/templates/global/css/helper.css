@@ -1,0 +1,53 @@
+/**********************************************************************************
+	created by:		Newmedia http://www.newmedia.ch
+	project:		GLOBAL
+	date:			Januar/2010, Marianne Luck
+	version:		0.1
+	file:			helper.css
+	function:		Generelle Hilfsklassen
+**********************************************************************************/
+@charset "utf-8";
+
+/* DESIGN ELEMENTS --------------------------------------------------------------*/
+/* ------------------------------------------------------------------------------*/
+.clearer
+{
+	clear: both;
+	display: block;
+	height: 1px;
+	margin-bottom: -1px;
+	font-size: 1px;
+	line-height: 1px;
+}
+
+/* Vertikalen Scrollbalken in diversen Browsern & Firefox erzwingen. Dies verhindert, dass zentrierte Layouts ** um 10 Pixel springen wenn der Seiteninhalt kleiner wird als die Höhe des Browserfensters. */
+/*
+html {
+height: 100.01%;
+padding-bottom:1px;
+}
+*/
+
+/* RAHMEN UM LINKS USW. VERHINERN */
+* :focus{outline:none;}
+
+pre 
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	line-height: 15px;
+	font-size:11px;
+}	
+
+
+.hidden {
+	display: none;
+	position: absolute;
+}
+
+/* ABSAETZE  ------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------*/
+
+/* Left, center and right alignment of text in paragraphs and cells.*/
+p.align-left, h1.align-left, h2.align-left, h3.align-left, h4.align-left, h5.align-left, h6.align-left, td.align-left { text-align: left; }
+p.align-center, h1.align-center, h2.align-center, h3.align-center, h4.align-center, h5.align-center, h6.align-center, td.align-center { text-align: center; }
+p.align-right, h1.align-right, h2.align-right, h3.align-right, h4.align-right, h5.align-right, h6.align-right, td.align-right { text-align: right; }

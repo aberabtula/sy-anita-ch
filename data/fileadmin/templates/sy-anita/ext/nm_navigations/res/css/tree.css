@@ -1,0 +1,69 @@
+/**********************************************************************************
+	created by:		Newmedia http://www.newmedia.ch
+	date:			Januar/2010, Marianne Luck
+	version:		0.1
+	file:			navigation.css
+	function:		main tree navigation
+**********************************************************************************/
+
+/* NAVIGATION MAIN  TREE  ------------------------------------------------------ */
+/* ------------------------------------------------------------------------------*/
+div#tree_navigation
+{
+	float:left;
+	width:100%;
+	margin:0;
+	padding:0;
+}
+
+#content ul#nav_tree_1
+{
+	float:left;
+	margin:0;
+	padding:0;
+	width:100%;
+	border-bottom:1px solid #43342A;
+}
+
+#content #nav_tree_1 li
+{
+	list-style:none;
+	padding:0;
+	margin:0;
+	float:left;
+	width:100%;
+	border-top:1px solid #43342A;
+}
+#content #nav_tree_1 li.first
+{
+
+}
+
+#content #nav_tree_1 li.last
+{
+
+}
+
+#content #nav_tree_1 li > a								{outline:none; line-height:25px; padding-left:10px; display:block; text-decoration: none; font-weight:normal; font-size:11px; color:#003F5A;}
+#content #nav_tree_1 li > a:link 					{}
+#content #nav_tree_1 li > a:visited 			{}
+#content #nav_tree_1 li > a:hover 				{background-color:#00405B; color:#fff;}
+#content #nav_tree_1 li > a:active				{background-color:#00405B; color:#fff;}
+#content #nav_tree_1 li > a:focus 				{background-color:#00405B; color:#fff;}
+
+#content #nav_tree_1 li.active > a				{font-weight:bold;}
+
+#content #nav_tree_1 li.cur > a						{font-weight:bold; }
+
+/*WEITERE EBENE */
+#content ul#nav_tree_2,
+#content ul#nav_tree_3,
+#content ul#nav_tree_4
+{
+	margin:0px;
+	padding:0px;
+}
+
+#content #nav_tree_2 li a						{padding-left:20px;}
+#content #nav_tree_3 li a						{padding-left:30px;}
+#content #nav_tree_4 li a						{padding-left:40px;}

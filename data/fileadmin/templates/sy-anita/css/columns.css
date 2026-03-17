@@ -1,0 +1,57 @@
+@charset "utf-8";
+/**********************************************************************************
+	created by:		Newmedia http://www.newmedia.ch
+	project:		PROJEKTNAME
+	date:			Januar/2010, Marianne Luck
+	version:		0.1
+	file:			colums.css
+	function:		Typo3 Colums in Content Area
+**********************************************************************************/
+/* COLUMS  ----------------------------------------------------------------------*/
+/* ------------------------------------------------------------------------------*/
+
+/* LEFT  ------------------------------------------------------------------------*/
+#colLeft {
+	float:left;
+	margin:0;
+	padding:0;
+}
+
+/* NORMAL  ----------------------------------------------------------------------*/
+#colNormal {
+	float:left;
+	margin:0;
+	padding:0;
+	width:100%;
+	min-height:1px;
+}
+
+/* RIGHT  -----------------------------------------------------------------------*/
+#colRight {
+	clear:left;
+	margin:0;
+	padding:0;
+}
+
+/* BORDER  ----------------------------------------------------------------------*/
+#colBorder {
+	float:left;
+	margin:0px;
+	padding:0px;
+}
+
+/* SUBTEMPLATES  -----------------------------------------------------------------*/
+#sub_B_L_N_R,
+#sub_L_N,
+#sub_L_N_R,
+#sub_N,
+#sub_N_R,
+#sub_NAV_B_L_N_R,
+#sub_NAV_L_N,
+#sub_NAV_L_N_R,
+#sub_NAV_N,
+#sub_NAV_N_R
+{
+	width:100%;
+	float:left;
+}
